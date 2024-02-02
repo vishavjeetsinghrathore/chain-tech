@@ -1,0 +1,20 @@
+
+import loginImg from "../assets/Images/login.webp"
+
+import Template from "../components/core/Template"
+
+function Login(){
+
+    return(
+        <Template
+        title="Welcome Back"
+        description1="Build skills for today, tommorow, and beyond."
+        description2="Education to future-proof your career."
+        image={loginImg}
+        formType="login"
+        
+        />
+    )
+}
+
+export default Login
